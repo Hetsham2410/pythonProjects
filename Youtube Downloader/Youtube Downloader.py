@@ -10,23 +10,6 @@ if result == "video":
     video = YouTube(video_link)
 
 
-    # print(f"The video title is :\n{video.title}\n---------------------")
-    # print(f"The video description is :\n{video.description}\n---------------------")
-    # print(f"The video views is :\n{video.views}\n---------------------")
-    # print(f"The video rating is :\n{video.rating}\n---------------------")
-    # print(f"The video duration is :\n{video.length/60} minutes \n---------------------")
-    # print(video.streams)
-    # for stream in video.streams:
-    #     print(stream)
-
-    # for stream in video.streams.filter(progressive=True, resolution="720p"):
-    #     print(stream)
-
-    # for stream in video.streams.filter(subtype="mp4"):
-    #     print(stream)
-
-    # print(video.streams.get_highest_resolution())
-
     def finish():
         print("download done")
 
